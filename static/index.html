@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <title>Google Solitaire</title>
+
+    <link rel="manifest" href="/manifest.json">
+    <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+    </script>
     
     <script type="text/javascript" src="solitaire_compiled.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Extended" rel="stylesheet">

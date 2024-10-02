@@ -1,0 +1,27 @@
+{
+    "theme_color": "#3b6c57",
+    "background_color": "#2b2b2b",
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "icons/512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "icons/512_rounded.png",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "portrait",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en-US",
+    "id": "https://solitaire.timon.zip",
+    "name": "solitaire",
+    "short_name": "solitaire",
+    "start_url": "https://solitaire.timon.zip",
+    "scope": "https://solitaire.timon.zip/"
+}
