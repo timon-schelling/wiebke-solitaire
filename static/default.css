@@ -593,6 +593,9 @@ body {
 
 
 
+#solitaire {
+  filter: brightness(0.75);
+}
 
 #solitaire-easy-button > div {
   height: 10px !important;
