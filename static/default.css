@@ -594,6 +594,10 @@ body {
 
 
 
+.placeholder {
+  filter: grayscale(1) brightness(0.4);
+}
+
 #solitaire {
   filter: brightness(0.75);
 }
