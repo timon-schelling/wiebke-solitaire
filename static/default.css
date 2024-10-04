@@ -330,7 +330,8 @@ body {
 }
 
 #solitaire-mode-dialog .container {
-  background-color: rgba(59, 59, 59, 1);
+  background-color: rgb(19 19 19);
+  ;
   border-radius: 8px;
 
   display: -webkit-box;
@@ -345,7 +346,7 @@ body {
 }
 #solitaire-mode-dialog .hint {
   font-size: 14px;
-  color: #888888;
+  color: #727272;
   text-align: center;
   padding: 18px 15px 8px 15px;
   display: -webkit-box;
@@ -364,7 +365,7 @@ body {
 #solitaire-mode-dialog .option {
   cursor: pointer;
   padding: 0 10px;
-  color: black;
+  color: #727272;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
