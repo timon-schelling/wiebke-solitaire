@@ -591,3 +591,15 @@ body {
   opacity: 0;
 }
 
+
+
+
+#solitaire-easy-button > div {
+  height: 10px !important;
+}
+
+
+#solitaire-hard-button > div {
+   height: 10px !important;
+}
+
